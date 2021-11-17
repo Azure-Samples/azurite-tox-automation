@@ -25,7 +25,8 @@ The code contains two simple Fast API calls, one for uploading data.txt into a b
 
 ## Getting Started
 
-[![Build Pipeline]](https://github.com/Azure-Samples/azurite-tox-automation/actions/workflows/build.yml)
+[![Build](https://github.com/Azure-Samples/azurite-tox-automation/actions/workflows/build.yml/badge.svg)](https://github.com/Azure-Samples/azurite-tox-automation/actions/workflows/build.yml)
+
 ### Folder structure
 
 Here's the folder structure for the sample:
