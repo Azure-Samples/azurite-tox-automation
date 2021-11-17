@@ -4,10 +4,12 @@ languages:
 - python
 - yaml
 - fastapi
+- shell
 products:
 - azure
 - tox
 - azure-blob-storage
+- docker
 
 description: "This sample demonstrates how to manage Azurite as a background task both on local and in a container."
 urlFragment: azurite-tox-automation
