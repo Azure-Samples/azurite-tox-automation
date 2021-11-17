@@ -1,0 +1,7 @@
+pytest
+fastapi
+python-dotenv
+azure-storage-blob
+aiohttp
+pytest-asyncio
+tox
