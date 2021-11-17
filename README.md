@@ -1,3 +1,18 @@
+---
+page_type: sample
+languages:
+- python
+- yaml
+- fastapi
+products:
+- azure
+- tox
+- azure-blob-storage
+
+description: "This sample demonstrates how to manage Azurite as a background task both on local and in a container."
+urlFragment: azurite-tox-automation
+---
+
 # Running Azurite in Tox Automation
 
 ## Overview
@@ -10,6 +25,7 @@ The code contains two simple Fast API calls, one for uploading data.txt into a b
 
 ## Getting Started
 
+[![Build Pipeline]](https://github.com/Azure-Samples/azurite-tox-automation/actions/workflows/build.yml)
 ### Folder structure
 
 Here's the folder structure for the sample:
@@ -126,7 +142,7 @@ See [LICENSE](LICENSE.md).
 
 ## Code of Conduct
 
-See [CODE_OF_CONDUCT](.github/CODE_OF_CONDUCT.md)
+See [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
 
 ## Contributing
 
