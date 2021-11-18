@@ -22,7 +22,7 @@ This repo presents a sample for automating tests required Azurite in Tox which m
 
 The code contains two simple Fast API calls, one for uploading data.txt into a blob storage and one for uploading the txt to local. And same scenario in the code is tested by reproduction with Azurite in `conftest.py`.
 
-`tox.ini` file includes two environments, first environment is for running the tests in a Linux container which may be a case for isolation required scenarios. And the other environment is for te scenarios where local automation is satisfactory.
+`tox.ini` file includes two environments, first environment is for running the tests in a Linux container which may be a case for isolation required scenarios. And the other environment is for the scenarios where local automation is satisfactory.
 
 ## Getting Started
 
@@ -74,7 +74,7 @@ For a better UI experience, it's recommended to use Storage Explorer to track th
 
 As it's mentioned in [Prerequisites](#prerequisites) section, we need to install Tox and then run the environments.
 
-Running tox is platform agnostic. As soon as you have a Docker installed local environment to build a container, you can use Windows or Linux or Powershell/cmd or wsl/bash is used.
+Running tox is platform agnostic. As soon as you have a Docker installed local environment to build a container, you can use Windows or Linux or Powershell/cmd or wsl/bash.
 
 #### a. Installing Tox
 
