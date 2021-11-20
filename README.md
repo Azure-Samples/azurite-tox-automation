@@ -3,11 +3,9 @@ page_type: sample
 languages:
 - python
 - yaml
-- fastapi
 - dockerfile
 products:
 - azure
-- tox
 - azure-blob-storage
 
 description: "This sample demonstrates how to manage Azurite as a background task both on local and in a container."
@@ -45,7 +43,7 @@ Here's the folder structure for the sample:
   - `__init__.py`
   - `conftest.py` - Configuration file for running tests
   - `test_example.py` - Azure Blob Storage Test Code
-  - `.test_env` - Environment variable connection details for Azurite - Azurite
+  - `.test_env` - Environment variable connection details for Azurite
 - `requirements.txt` - Required pip packages to run the code and tests
 - `tox.ini` - tox configuration file
 
